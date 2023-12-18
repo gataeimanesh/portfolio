@@ -1,0 +1,15 @@
+.center {
+  margin-left: 25%; /* Push the container 10% to the right */
+  text-align: center; /* Center the headings horizontally */
+
+  width: 57%; /* Set the width of the div container */
+  padding: 20px; /* Add padding around the headings */
+  background-color: #6bd7ea; /* Set a light background color for the container */
+  
+}
+
+
+.centerf {
+  margin: 0 auto; /* Center the div container horizontally */
+  width: 50%; /* Set the width of the div container */
+}

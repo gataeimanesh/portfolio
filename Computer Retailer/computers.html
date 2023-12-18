@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive ecommerce website design </title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"><h2>Computers Retailer</h2></a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#products">products</a>
+        <a href="#Contact">contact</a>
+        <a href="#reviews">Review</a>
+      </nav>
+
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="computershoppingcart/shoppingcart.html" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="slide-container active">
+        <div class="slide">
+          <div class="content">
+            <span></span>
+            <h3>APPLE MacBook</h3>
+            <h3>Air 13.3" - M1, Midnight</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              maiores et eos eaque veritatis aut laboriosam earum dolorem iste
+              atque.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+          <div class="image">
+            <img src="images/10250688.png1.webp" class="computer" alt="" />
+            <img src="images/M10216298_grey.png2.webp" class="text" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-container">
+        <div class="slide">
+          <div class="content">
+            <h3>ACER Laptop</h3>
+            <h3>Aspire 3 14" Laptop</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              maiores et eos eaque veritatis aut laboriosam earum dolorem iste
+              atque.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+          <div class="image">
+            <img src="images/10250513.png3.webp" class="computer" alt="" />
+            <img src="images/10242784.png4.webp" class="text" alt="" />
+          </div>
+        </div>
+      </div>
+
+
+      <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+      <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- service section starts  -->
+
+    <section class="service">
+      <div class="box-container">
+        <div class="box">
+         <i class="fas fa-shipping-fast"></i>
+          <h3>fast delivery</h3> 
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum,
+            fugit.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-undo"></i>
+          <h3>15 days replacements</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum,
+            fugit.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-headset"></i>
+          <h3>24 x 7 support</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum,
+            fugit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- service section ends -->
+
+    <!-- products section starts  -->
+
+    <section class="products" id="products">
+      <h1 class="heading">latest <span>products</span></h1>
+
+      <div class="box-container main-basket">
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/10236042.png5.webp" class="computer" alt="" />
+          <div class="content">
+            <h3>ASUS CM14 Flip 14" 2 in 1 Chromebook - MediaTek Kompanio 520, 128 GB eMMC</h3>
+            <div class="price">£350<span>£450</span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn" data-id="1">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/10248727.png6.webp" class="computer" alt="" />
+          
+          <div class="content">
+            <h3>ACER 314 14" Chromebook - Intel® Core™ i3, 128 GB eMMC, Silver</h3>
+            <div class="price">£290 <span>£320</span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn" data-id="2">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/10252966.png7.webp" class="computer" alt="" />
+          <div class="content">
+            <h3>SAMSUNG Galaxy Book3 15.6" Laptop - Intel® Core™ i5, 256 GB SSD, Graphite</h3>
+            <div class="price">£520 <span></span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn "data-id="3">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/10251402.png8.webp" class="computer" alt="" />
+          <div class="content">
+            <h3>ASUS Vivobook S 15 S5504VN 15.6" Laptop - Intel® Core™ i5, 512 GB SSD, Silver</h3>
+            <div class="price">£420 <span></span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn" data-id="4">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/10251973.9png.webp" class="computer" alt="" />
+          <div class="content">
+            <h3>HP 27-cr0024na 27" All-in-One PC - Intel® Core™ i7, 512 GB SSD, Black</h3>
+            <div class="price">£740 <span></span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn" data-id="5">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/10251219.10png.webp" class="computer" alt="" />
+          <div class="content">
+            <h3>LENOVO IdeaCentre AIO 3 27" All-in-One PC - Intel® Core™ i5, 512 GB SSD, Black</h3>
+            <div class="price">£680 <span></span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn" data-id="6">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- products section ends -->
+
+    <!-- featured section starts  -->
+
+    <section class="newsletter">
+      <div class="content">
+     
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum ullam
+          veniam at itaque culpa hic corporis saepe dicta doloremque nihil.
+        </p>
+        <form action="">
+          <input type="email" placeholder="enter your email" class="box" />
+          <input type="submit" value="send" class="btn" />
+        </form>
+      </div>
+    </section>
+ 
+
+    
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
